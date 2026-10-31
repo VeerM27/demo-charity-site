@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Volunteer | Lanternfield Community Pantry</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,12 +34,12 @@
     <section>
       <div class="wrap split" style="align-items: start">
         <form class="form" action="#" method="post">
-          <div class="field"><span class="field-label">Full name</span><input type="text" name="name" autocomplete="name"></div>
-          <div class="field"><span class="field-label">Email</span><input type="email" name="email" autocomplete="email"></div>
-          <div class="field"><span class="field-label">Phone</span><input type="tel" name="phone" autocomplete="phone-number"></div>
+          <div class="field"><label class="field-label" for="vol-name">Full name</label><input type="text" id="vol-name" name="name" autocomplete="name"></div>
+          <div class="field"><label class="field-label" for="vol-email">Email</label><input type="email" id="vol-email" name="email" autocomplete="email"></div>
+          <div class="field"><label class="field-label" for="vol-phone">Phone</label><input type="tel" id="vol-phone" name="phone" autocomplete="tel"></div>
           <div class="field">
-            <span class="field-label">I'd like to help with</span>
-            <select name="role">
+            <label class="field-label" for="vol-role">I'd like to help with</label>
+            <select id="vol-role" name="role">
               <option>Sorting donations</option>
               <option>Packing parcels</option>
               <option>Driving deliveries</option>
