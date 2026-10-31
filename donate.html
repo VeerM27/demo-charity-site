@@ -43,13 +43,13 @@
             </div>
             <p class="hint" id="gift-hint">Monthly gifts help us plan ahead.</p>
           </fieldset>
-          <div class="field"><span class="field-label">Or enter your own amount (£)</span><input type="number" name="custom" min="1"></div>
-          <div class="field"><span class="field-label">Leave a message for the team</span><textarea name="message"></textarea></div>
-          <div class="toggle" role="checkbox" tabindex="0"><span class="toggle-box" aria-hidden="true"></span><span>Add Gift Aid (+25% at no cost to you)</span></div>
+          <div class="field"><label class="field-label" for="custom-amount">Or enter your own amount (£)</label><input type="number" id="custom-amount" name="custom" min="1"></div>
+          <div class="field"><label class="field-label" for="message-input">Leave a message for the team</label><textarea id="message-input" name="message"></textarea></div>
+          <div class="toggle" role="checkbox" aria-checked="false" tabindex="0"><span class="toggle-box" aria-hidden="true"></span><span>Add Gift Aid (+25% at no cost to you)</span></div>
           <p class="hint" id="gift-hint">You can change or cancel a monthly gift at any time.</p>
           <div style="display: flex; gap: 12px; align-items: center">
             <button class="button" type="submit">Donate now</button>
-            <button class="icon-button" type="button"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 11v6M12 7v1" stroke="currentColor" stroke-width="2"/></svg></button>
+            <button class="icon-button" type="button" aria-label="More information"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 11v6M12 7v1" stroke="currentColor" stroke-width="2"/></svg></button>
           </div>
           <p class="muted">Payments are handled securely by our payment provider.</p>
         </form>
