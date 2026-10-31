@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate | Lanternfield Community Pantry</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="img/logo.svg" alt=""> Lanternfield Community Pantry</a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="donate.html" aria-current="page">Donate</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+    </div>
+  </header>
+  <main>
+    <div class="page-hero">
+      <div class="wrap">
+        <h1>Donate</h1>
+        <p>£25 fills a family food parcel for a week. Every pound goes on food, fuel for the van and keeping the lights on.</p>
+      </div>
+    </div>
+    <section>
+      <div class="wrap split" style="align-items: start">
+        <form class="form" action="#" method="post">
+          <fieldset style="border: 0; padding: 0; margin: 0">
+            <legend class="field-label">Choose an amount</legend>
+            <div class="amounts">
+              <label><input type="radio" name="amount" value="10" aria-describedby="gift-hint"> £10</label>
+              <label><input type="radio" name="amount" value="25" checked aria-describedby="gift-hint"> £25</label>
+              <label><input type="radio" name="amount" value="50" aria-describedby="gift-hint"> £50</label>
+            </div>
+            <p class="hint" id="gift-hint">Monthly gifts help us plan ahead.</p>
+          </fieldset>
+          <div class="field"><span class="field-label">Or enter your own amount (£)</span><input type="number" name="custom" min="1"></div>
+          <div class="field"><span class="field-label">Leave a message for the team</span><textarea name="message"></textarea></div>
+          <div class="toggle" role="checkbox" tabindex="0"><span class="toggle-box" aria-hidden="true"></span><span>Add Gift Aid (+25% at no cost to you)</span></div>
+          <p class="hint" id="gift-hint">You can change or cancel a monthly gift at any time.</p>
+          <div style="display: flex; gap: 12px; align-items: center">
+            <button class="button" type="submit">Donate now</button>
+            <button class="icon-button" type="button"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 11v6M12 7v1" stroke="currentColor" stroke-width="2"/></svg></button>
+          </div>
+          <p class="muted">Payments are handled securely by our payment provider.</p>
+        </form>
+        <div>
+          <h2>Where your money goes</h2>
+          <p>Last year, 87p of every pound went straight into food and deliveries.</p>
+          <p class="muted">Registered charity no. 0000000 (fictional).</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <h2>Get our monthly letter</h2>
+        <p>Stories from the pantry floor, upcoming events, and what we need most on the shelves.</p>
+        <form class="newsletter" action="#" method="post">
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" name="email" autocomplete="email">
+          <button type="submit" aria-label="Subscribe">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M12 5l7 7-7 7" stroke="#1d1d1b" stroke-width="2.5" fill="none"/></svg>
+          </button>
+        </form>
+      </div>
+      <div>
+        <h2>Visit us</h2>
+        <p>14 Mill Lane, Lanternfield<br>Tue &amp; Thu 10am&ndash;4pm<br>Sat 9am&ndash;1pm</p>
+      </div>
+      <div>
+        <h2>Follow</h2>
+        <ul class="social">
+          <li><a href="#" aria-label="Lanternfield Pantry on Instagram"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" fill="none"/></svg></a></li>
+          <li><a href="#" aria-label="Lanternfield Pantry on Facebook"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8z" fill="currentColor"/></svg></a></li>
+        </ul>
+      </div>
+      <p class="legal">Lanternfield Community Pantry is a fictional charity made for a software demo.</p>
+    </div>
+  </footer>
+</body>
+</html>
