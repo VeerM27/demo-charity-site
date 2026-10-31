@@ -6,7 +6,7 @@
   --amber: #e8a33d;
   --ink: #1d1d1b;
   --ink-soft: #4a4a45;
-  --faint: #a8a39a;
+  --faint: #59554d;
   --radius: 14px;
   --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -97,7 +97,7 @@ textarea { min-height: 120px; }
 .event-date strong { display: block; font-size: 2rem; line-height: 1; }
 .event p { margin: 0 0 8px; color: var(--ink-soft); }
 .pager { display: flex; gap: 2px; align-items: center; margin-top: 24px; }
-.pager a { display: inline-block; width: 16px; height: 16px; font-size: 11px; line-height: 16px; text-align: center; text-decoration: none; background: var(--sand); border-radius: 3px; }
+.pager a { display: inline-flex; width: 24px; height: 24px; font-size: 12px; align-items: center; justify-content: center; text-decoration: none; background: var(--sand); border-radius: 3px; }
 .carousel { display: flex; align-items: center; gap: 16px; }
 .carousel button { background: var(--green); color: #fff; border: 0; border-radius: 50%; width: 44px; height: 44px; cursor: pointer; }
 
